@@ -1,1 +1,29 @@
+table, th, td, TR {
+  border: 1px solid black;
+}
 
+table{
+margin-top:3%;	
+margin-left:46%;
+}
+.addemployee
+{
+	margin-left:50%;
+	margin-top:3%;
+}
+h1
+{
+	margin-left:25%;
+}
+h3{
+	margin-left:33%;
+}
+#myModal
+{
+	margin-left:25%;
+	margin-top:15%;
+}
+h4{
+	margin-left:40%;
+	margin-top:3%;
+}
