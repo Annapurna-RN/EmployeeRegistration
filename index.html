@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<H1> Welcome to Employee registrations service </H1>
+<h3> Please click on add button to add an employee</h3>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="index.css"></link>
+</head>
+<body>
+<div class ="addemployee">
+<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Add</button>
+</div>
+<div class="modal fade" id="myModal">
+<div id="myModal">
+<input Placeholder="Enter your name" id="putName"></input>
+<button onclick="saveName()">Save</button>
+<div id="getName"></div>
+</div>
+</div>
+</div>
+<h4> Employee names are shown below in the table</h4>
+<table>
+<tr>
+<th>Name of the Employee</th>
+</tr>
+<tr>
+  <td><div id="i1"></td>
+    </div>
+	</tr>
+ </table>
+<script src='index.js'>
+</script>
+</body>
+</html>
+
