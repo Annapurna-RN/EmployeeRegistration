@@ -1,11 +1,16 @@
-table, th, td, TR {
-  border: 1px solid black;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+ margin-left:46%;
+ margin-top:2%;
 }
 
-table{
-margin-top:3%;	
-margin-left:46%;
+td, th {
+  border: 1px solid black;
+  
+  padding: 8px;
 }
+
 .addemployee
 {
 	margin-left:50%;
