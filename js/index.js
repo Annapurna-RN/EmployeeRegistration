@@ -1,15 +1,5 @@
  function saveName()
- {
-	/*var table=document.getElementById("table");
-	var  name = "Name";    
-	var employeeName = document.getElementById('putName').value; 
-	localStorage.setItem(name,JSON.stringify(employeeName));
-	var row= table.insertRow();
-	 var cell=row.insertCell(0);
-	 cell.innerHTML=employeeName;*/
-	 
-	 
-	
+{
 	 var employeeName=document.getElementById("putName").value;
 	 var employeeAge=document.getElementById("putAge").value;
 	 var employeeid=document.getElementById("putEmpid").value;
