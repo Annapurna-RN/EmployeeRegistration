@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/index.css"></link>
+<link rel="stylesheet" href="index.css"></link>
 </head>
 <body>
 <div class ="addemployee">
@@ -17,21 +17,24 @@
 <div class="modal fade" id="myModal">
 <div id="myModal">
 <input Placeholder="Enter your name" id="putName"></input>
-
+<input Placeholder="Enter your age" id="putAge"></input>
+<input Placeholder="Enter your empid" id="putEmpid"></input>
 <button onclick="saveName()">Save</button>
 <div id="getName"></div>
 </div>
 </div>
 </div>
-<h4> Employee names are shown below in the table</h4>
-<table id='table'>
+<h4> Employee details are shown below in the table</h4>
+<table id='empTable'>
 <tr>
-<th>Name of the Employees</th>
+<th>Name of the Employee</th>
+<th>Employee Age</th>
+<th>Employee ID</th>
 
 </tr>
 
  </table>
-<script src='js/index.js'>
+<script src='index.js'>
 </script>
 </body>
 </html>
